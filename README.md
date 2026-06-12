@@ -27,11 +27,14 @@
 ---
 
 ## 🚀 Быстрый старт
-
-1. Установите **Microsoft SQL Server** и **SSMS**.
-2. Откройте [`FullTableCreateInsertTr.sql`](./FullTableCreateInsertTr.sql) и выполните.
-3. База данных `restaurant` будет создана и заполнена тестовыми данными.
-4. Готово. Можно выполнять запросы из папок `запросы для расчетов/` и `запросы/`.
+1. ```bash
+   git clone https://github.com/smehovartem566/sql-restaurant-db.git
+   cd sql-restaurant-db
+   ```
+2. Установите **Microsoft SQL Server** и **SSMS**.
+3. Откройте [`FullTableCreateInsertTr.sql`](./FullTableCreateInsertTr.sql) и выполните.
+4. База данных `restaurant` будет создана и заполнена тестовыми данными.
+5. Готово. Можно выполнять запросы из папок `запросы для расчетов/` и `запросы/`.
 
 > ⚠️ Скрипт [`FullTableCreateInsertTr.sql`](./FullTableCreateInsertTr.sql) предназначен для однократного выполнения. Повторный запуск создаст дублирующиеся данные.
 
@@ -49,5 +52,4 @@
 ## 👤 Автор
 
 **Смехов Артём Иванович**  
-Группа ИСП-9.19  
 GitHub: [smehovartem566](https://github.com/smehovartem566)
